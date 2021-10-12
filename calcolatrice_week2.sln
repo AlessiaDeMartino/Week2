@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bolletta Luce", "Bolletta L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bolletta Luce_versione Menù", "Bolletta Luce_versione Menù\Bolletta Luce_versione Menù.csproj", "{77065F62-09FD-4A92-A60B-5B54B241DCC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio_Carte di pagamento", "Esercizio_Carte di pagamento\Esercizio_Carte di pagamento.csproj", "{753A93A7-3152-4D35-8AE3-36EF207660CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{77065F62-09FD-4A92-A60B-5B54B241DCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77065F62-09FD-4A92-A60B-5B54B241DCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77065F62-09FD-4A92-A60B-5B54B241DCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753A93A7-3152-4D35-8AE3-36EF207660CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753A93A7-3152-4D35-8AE3-36EF207660CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753A93A7-3152-4D35-8AE3-36EF207660CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753A93A7-3152-4D35-8AE3-36EF207660CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
