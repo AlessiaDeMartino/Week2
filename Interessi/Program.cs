@@ -17,10 +17,10 @@ namespace Interessi
             // Dopo 2 anni : 10300 + (10300 * 3 / 100) = 10300 + 309 = 10609
             // Dopo 3 anni : 10609 + (10609 * 3 / 100) = 10609 + 318,27 = 10927,27
 
-           //double import = 10000;
-           //double interesse = 0.03;
-           //int anni = 3;
-           
+            //double import = 10000;
+            //double interesse = 0.03;
+            //int anni = 3;
+
 
             Console.WriteLine("Inserire importo denaro iniziale");
             double money = Convert.ToDouble(Console.ReadLine());
@@ -29,23 +29,37 @@ namespace Interessi
             Console.WriteLine("Inserire numero di anni");
             int years = Convert.ToInt32(Console.ReadLine());
 
-         
-            double moneyMaturati = CalcoloAnnuo(money, interess, years);
+
+            //double moneyMaturati = CalcoloAnnuo(money, interess, years);
+            double moneyMaturati = CalcoloAnnuoRicorsione(years, money,interess);
             Console.WriteLine($"Dopo {years} anni, riesci a maturare {moneyMaturati} euro ");
 
 
         }
 
-        private static double CalcoloAnnuo(double money, double interess, int years)
+        //private static double CalcoloAnnuo(double money, double interess, int years)
+        //{
+        //    double count = money;
+        //    for (int i = 1; i <= years; i++)
+        //    {
+
+        //        count = count + (count * interess);
+
+        //    }
+        //    return count;
+        //}
+
+        private static double CalcoloAnnuoRicorsione (int anni, double money, double interess)
         {
-            double count = money;
-            for (int i = 1; i <= years; i++)
+            if (anni==1)
             {
-
-                count = count + (count * interess);
-
+                return (money+(money*interess));
+             }
+         else
+            {
+                return CalcoloAnnuoRicorsione((anni-1),money,interess)+(money*interess);
             }
-            return count;
+
         }
     }
     }

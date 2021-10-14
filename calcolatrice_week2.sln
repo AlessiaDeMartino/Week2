@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScritturaELettura dei File"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indovina Numero", "Indovina Numero\Indovina Numero.csproj", "{4F4A6351-AAC5-43F9-89EE-A6AD3E545138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indovina Numero con Metodi", "Indovina Numero con Metodi\Indovina Numero con Metodi.csproj", "{ADB0EA40-D266-4818-B432-EB7CBAFBC8F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indovina Numero con Metodi", "Indovina Numero con Metodi\Indovina Numero con Metodi.csproj", "{ADB0EA40-D266-4818-B432-EB7CBAFBC8F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ricorsione_prove", "Ricorsione_prove\Ricorsione_prove.csproj", "{2AD51BFC-DACA-4969-8820-69CFF7F96CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ricorsione_prove", "Ricorsione_prove\Ricorsione_prove.csproj", "{2AD51BFC-DACA-4969-8820-69CFF7F96CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fattoriale_Ricorsione", "Fattoriale_Ricorsione\Fattoriale_Ricorsione.csproj", "{72BEC5CA-1592-4DE6-8F0B-B2AAD59D67C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fattoriale_Ricorsione", "Fattoriale_Ricorsione\Fattoriale_Ricorsione.csproj", "{72BEC5CA-1592-4DE6-8F0B-B2AAD59D67C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interessi", "Interessi\Interessi.csproj", "{0346E640-112A-4A57-B0F4-D657298A6BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interessi", "Interessi\Interessi.csproj", "{0346E640-112A-4A57-B0F4-D657298A6BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria", "Libreria\Libreria.csproj", "{5154B382-A1E5-44D1-8733-439226EA70A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0346E640-112A-4A57-B0F4-D657298A6BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0346E640-112A-4A57-B0F4-D657298A6BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0346E640-112A-4A57-B0F4-D657298A6BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5154B382-A1E5-44D1-8733-439226EA70A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5154B382-A1E5-44D1-8733-439226EA70A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5154B382-A1E5-44D1-8733-439226EA70A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5154B382-A1E5-44D1-8733-439226EA70A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
